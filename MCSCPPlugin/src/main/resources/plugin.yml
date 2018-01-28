@@ -1,0 +1,3 @@
+name: MCSCPPlugin
+main: io.github.undefinedmaniac.mcscpplugin.MCSCPPlugin
+version: 1.0
