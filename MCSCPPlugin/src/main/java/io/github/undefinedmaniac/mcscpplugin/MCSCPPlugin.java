@@ -20,7 +20,7 @@ public class MCSCPPlugin extends JavaPlugin {
         mServer.runTaskAsynchronously(this);
 
         //Start timer for TPS
-        Bukkit.getServer().getScheduler().runTaskTimer(this, new Runnable(){
+        Bukkit.getServer().getScheduler().runTaskTimer(this, new Runnable() {
 
             long secstart;
             long secend;
@@ -28,12 +28,12 @@ public class MCSCPPlugin extends JavaPlugin {
             int ticks;
 
             @Override
-            public void run(){
+            public void run() {
                 secstart = (System.currentTimeMillis() / 1000);
 
-                if(secstart == secend){
+                if (secstart == secend) {
                     ticks++;
-                }else{
+                } else {
                     secend = secstart;
                     tps = (tps == 0) ? ticks : ((tps + ticks) / 2);
                     ticks = 1;
