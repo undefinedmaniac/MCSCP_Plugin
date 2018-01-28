@@ -1,1 +1,1 @@
-
+This is a plugin that implements my [MCSCP protocol](https://docs.google.com/spreadsheets/d/1frGQdqzLz9wJeY-nf20zOYkastzBKq3O8vzlkrTdRmo/edit?usp=sharing). It was designed to work alongside my Minecraft server manager application, however, it can be used with any TCP client. 
